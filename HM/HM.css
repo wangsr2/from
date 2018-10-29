@@ -65,3 +65,23 @@ input{
     top: 10px;
     left:85px;
 }
+/* 轮播图 */
+
+#images>a{
+    transition: opacity 1s linear;
+    display: block;
+    position: absolute;
+}
+.displayImg{
+   display: block;
+   opacity :1;
+
+}
+.hiddenImg{
+     display: none;
+     opacity :0;
+}
+#images>a img{
+    width: 100%;
+    height: 100%;
+}
