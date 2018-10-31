@@ -133,15 +133,16 @@ input{
         height: 40px;
     }
     .txt-box li{
-        width: 12.5%;
-        background-color:black;
-        opacity: 0.3;
+        width: 100%;
+         background-color:black; 
+        opacity: 0.3; 
         margin-right: 2px;
         color: #fff;
         text-align: center;
     }
+    
     .txt-box li:hover{
-        background-color: coral;
+        background-color: rgb(252,164,2);
     }
     
     .txt-box:last-child{
@@ -151,7 +152,8 @@ input{
     .hm-nav{
         width: 100%;
         background: #fff;
-        border-bottom: 1px solid #e0e0e0;
+        /* border-bottom: 1px solid #e0e0e0; */
+        margin: 10px;
     }
     .hm-nav>ul{
         width: 100%;
@@ -160,6 +162,8 @@ input{
     .hm-nav>ul>li{
         width: 25%;
         float: left;
+        list-style: none;
+        
     }
     .hm-nav>ul>li>a{
         display: block;
