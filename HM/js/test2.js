@@ -2,6 +2,8 @@
 // 获取一组带图像的超链接
 var imagesA = document.getElementById("images").children;
 //获取一组li文本
+
+
 var txtList = document.querySelector(".txt-box").children;
 
 //初始化当前显示的图片/文本编号
