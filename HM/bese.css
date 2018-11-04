@@ -12,7 +12,7 @@ body{
     font-size: 14px;
     font-family:"Microsoft yaHei",sans-serif;
     color: #333;
-    background-color: bisque;
+    background-color: hotpink;
 }
 
 a{
@@ -111,8 +111,4 @@ input{
     height: 30px;
     margin-top: 7px;
 }
-.hm_topBar>h3{
-    text-align: center;
-    line-height: 44px;
-    font-weight: normal;
-} 
+
