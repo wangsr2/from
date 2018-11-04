@@ -13,17 +13,18 @@ html{
 }
 body{
     background: #f5f5f5;
-    /* min-width: 300px; */
+    
     
 }
 .hm_topBar>h3{
     text-align: center;
     line-height: 44px;
     font-weight: normal;
-   
-    
 } 
-
+.hm_topBar>a>img{
+    float: left;
+    margin-top: 15px;
+}
 .hm_topBar{
     position: static;
     width: 100%;
@@ -177,7 +178,7 @@ body{
     height: 34px;
     width: 40px;
     padding: 7px 10px;
-    background: url(images/quan.png) no-repeat;
+    background: url(images/gg.png) no-repeat;
     background-origin: content-box;
     background-clip: content-box;    
     display: block;
@@ -190,11 +191,11 @@ body{
     width: 20px;
     height: 20px;
     display: inline-block;
-   
+}
+.hm_check_box>img{
+    width: 25px;
+    height: 25px;
+    margin-top: 18px;
+    /* float: left; */
     
 }
-/* .hm_topBar>h2{
-    text-align: center;
-    line-height: 44px;
-    font-weight: normal;
-}  */
